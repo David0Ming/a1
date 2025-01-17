@@ -1,0 +1,390 @@
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 21:29:56 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ LDiffRec           | False               
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ lr1                | 0.0001              
+ lr2                | 0.0001              
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ optimizer1         | AdamW               
+ optimizer2         | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+ wd1                | 0.0                 
+ wd2                | 0.0                 
+===========================================
+INFO:root:Device: cpu
+INFO:root:Reading data from "../data/", dataset = "Grocery_and_Gourmet_Food" 
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 21:44:07 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ LDiffRec           | False               
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ lr1                | 0.0001              
+ lr2                | 0.0001              
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ optimizer1         | AdamW               
+ optimizer2         | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+ wd1                | 0.0                 
+ wd2                | 0.0                 
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 21:45:28 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ LDiffRec           | False               
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ lr1                | 0.0001              
+ lr2                | 0.0001              
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ optimizer1         | AdamW               
+ optimizer2         | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+ wd1                | 0.0                 
+ wd2                | 0.0                 
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 21:46:41 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ LDiffRec           | False               
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ lr1                | 0.0001              
+ lr2                | 0.0001              
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ optimizer1         | AdamW               
+ optimizer2         | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+ wd1                | 0.0                 
+ wd2                | 0.0                 
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 17505874
+INFO:root:DiffRec(
+  (DNN): DNN(
+    (emb_layer): Linear(in_features=64, out_features=64, bias=True)
+    (in_layers): ModuleList(
+      (0): Linear(in_features=8778, out_features=1000, bias=True)
+    )
+    (out_layers): ModuleList(
+      (0): Linear(in_features=1000, out_features=8714, bias=True)
+    )
+    (drop): Dropout(p=0.5, inplace=False)
+  )
+  (GaussianDiffusion): GaussianDiffusion()
+)
+INFO:root:Test Before Training: (HR@5:0.0484,NDCG@5:0.0284,HR@10:0.0977,NDCG@10:0.0442,HR@20:0.1985,NDCG@20:0.0694,HR@50:0.4968,NDCG@50:0.1276)
+INFO:root:Optimizer: AdamW
+INFO:root:Epoch 1     loss=53.6527 [7.9 s]	dev=(HR@5:0.1653,NDCG@5:0.1161) [168.2 s] *
+INFO:root:Epoch 2     loss=37.0899 [9.1 s]	dev=(HR@5:0.2646,NDCG@5:0.1855) [161.5 s] *
+INFO:root:Epoch 3     loss=31.9470 [7.0 s]	dev=(HR@5:0.2577,NDCG@5:0.1789) [153.1 s]
+INFO:root:Epoch 4     loss=29.6207 [7.4 s]	dev=(HR@5:0.2438,NDCG@5:0.1639) [154.7 s]
+INFO:root:Epoch 5     loss=28.0195 [7.6 s]	dev=(HR@5:0.2254,NDCG@5:0.1642) [160.7 s]
+INFO:root:Epoch 6     loss=26.9626 [7.3 s]	dev=(HR@5:0.2815,NDCG@5:0.2046) [174.6 s] *
+INFO:root:Epoch 7     loss=26.3244 [10.1 s]	dev=(HR@5:0.2545,NDCG@5:0.1830) [172.8 s]
+INFO:root:Epoch 8     loss=25.8718 [9.4 s]	dev=(HR@5:0.2635,NDCG@5:0.1905) [181.0 s]
+INFO:root:Epoch 9     loss=25.4237 [8.6 s]	dev=(HR@5:0.2528,NDCG@5:0.1802) [168.7 s]
+INFO:root:Epoch 10    loss=25.1572 [7.2 s]	dev=(HR@5:0.2545,NDCG@5:0.1826) [157.0 s]
+INFO:root:Epoch 11    loss=25.0929 [7.6 s]	dev=(HR@5:0.2365,NDCG@5:0.1687) [173.9 s]
+INFO:root:Epoch 12    loss=24.9487 [9.5 s]	dev=(HR@5:0.2509,NDCG@5:0.1778) [184.0 s]
+INFO:root:Epoch 13    loss=24.8135 [10.5 s]	dev=(HR@5:0.2503,NDCG@5:0.1778) [190.8 s]
+INFO:root:Epoch 14    loss=24.7516 [9.1 s]	dev=(HR@5:0.1417,NDCG@5:0.0949) [191.7 s]
+INFO:root:Epoch 15    loss=25.0975 [11.7 s]	dev=(HR@5:0.1612,NDCG@5:0.1051) [147.9 s]
+INFO:root:Early stop at 15 based on dev result.
+INFO:root:
+Best Iter(dev)=    6	 dev=(HR@5:0.2815,NDCG@5:0.2046) [2671.2 s] 
+INFO:root:Load model from ../model/DiffRec/DiffRec_Grocery_and_Gourmet_Food_0_bs400_dims1000_embs64_st100_ns0.1_nmin0.0001_nmax0.02_sample_st0_rwTrue_lr0.001_l21e-06.pt
+INFO:root:
+Dev  After Training: (HR@5:0.2815,NDCG@5:0.2046,HR@10:0.3702,NDCG@10:0.2334,HR@20:0.4656,NDCG@20:0.2574,HR@50:0.6743,NDCG@50:0.2984)
+INFO:root:
+Test After Training: (HR@5:0.2321,NDCG@5:0.1630,HR@10:0.3157,NDCG@10:0.1900,HR@20:0.4181,NDCG@20:0.2158,HR@50:0.6422,NDCG@50:0.2598)
+INFO:root:Saving top-100 recommendation results to: ../log/DiffRec\DiffRec_Grocery_and_Gourmet_Food_0_bs400_dims1000_embs64_st100_ns0\rec-DiffRec-dev.csv
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 22:53:03 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 17505874
+INFO:root:DiffRec(
+  (DNN): DNN(
+    (emb_layer): Linear(in_features=64, out_features=64, bias=True)
+    (in_layers): ModuleList(
+      (0): Linear(in_features=8778, out_features=1000, bias=True)
+    )
+    (out_layers): ModuleList(
+      (0): Linear(in_features=1000, out_features=8714, bias=True)
+    )
+    (drop): Dropout(p=0.5, inplace=False)
+  )
+  (GaussianDiffusion): GaussianDiffusion()
+)
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 22:54:05 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 17505874
+INFO:root:DiffRec(
+  (DNN): DNN(
+    (emb_layer): Linear(in_features=64, out_features=64, bias=True)
+    (in_layers): ModuleList(
+      (0): Linear(in_features=8778, out_features=1000, bias=True)
+    )
+    (out_layers): ModuleList(
+      (0): Linear(in_features=1000, out_features=8714, bias=True)
+    )
+    (drop): Dropout(p=0.5, inplace=False)
+  )
+  (GaussianDiffusion): GaussianDiffusion()
+)
+INFO:root:Namespace(model_name='DiffRec', model_mode='')
+INFO:root:--------------------------------------------- BEGIN: 2025-01-17 22:54:32 ---------------------------------------------
+INFO:root:
+===========================================
+ Arguments          | Values               
+===========================================
+ batch_size         | 400                 
+ data_appendix      |                     
+ dataset            | Grocery_and_Gourm...
+ dims               | [1000]              
+ dropout            | 0                   
+ early_stop         | 10                  
+ emb_size           | 64                  
+ epoch              | 200                 
+ eval_batch_size    | 400                 
+ gpu                | 0                   
+ l2                 | 1e-06               
+ lr                 | 0.001               
+ main_metric        |                     
+ mean_type          | x0                  
+ noise_max          | 0.02                
+ noise_min          | 0.0001              
+ noise_scale        | 0.1                 
+ noise_schedule     | linear-var          
+ norm               | False               
+ num_neg            | 1                   
+ num_workers        | 4                   
+ optimizer          | AdamW               
+ random_seed        | 0                   
+ reweight           | True                
+ sampling_noise     | False               
+ sampling_steps     | 0                   
+ save_final_results | 1                   
+ steps              | 100                 
+ test_all           | 0                   
+ time_type          | cat                 
+ topk               | 5,10,20,50          
+===========================================
+INFO:root:Device: cpu
+INFO:root:Load corpus from ../data/Grocery_and_Gourmet_Food\BaseReader.pkl
+INFO:root:#params: 17505874
+INFO:root:DiffRec(
+  (DNN): DNN(
+    (emb_layer): Linear(in_features=64, out_features=64, bias=True)
+    (in_layers): ModuleList(
+      (0): Linear(in_features=8778, out_features=1000, bias=True)
+    )
+    (out_layers): ModuleList(
+      (0): Linear(in_features=1000, out_features=8714, bias=True)
+    )
+    (drop): Dropout(p=0.5, inplace=False)
+  )
+  (GaussianDiffusion): GaussianDiffusion()
+)
